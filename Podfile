@@ -5,7 +5,7 @@ pod 'Alamofire', '3.5.1'
 
 pod 'SwiftyJSON', '2.4.0'
 
-pod 'Alamofire-SwiftyJSON', '0.1.1'
+pod 'Alamofire-SwiftyJSON'
 
 pod 'SDWebImage', '3.8.2'
 
