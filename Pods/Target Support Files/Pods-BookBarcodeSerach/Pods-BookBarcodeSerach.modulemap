@@ -1,0 +1,6 @@
+framework module Pods_BookBarcodeSerach {
+  umbrella header "Pods-BookBarcodeSerach-umbrella.h"
+
+  export *
+  module * { export * }
+}

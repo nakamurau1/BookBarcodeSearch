@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1EF566A48E1FBFED59B46D /* Pods_BookBarcodeSerachTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E7C2A65F4820EC0BF37B1D /* Pods_BookBarcodeSerachTests.framework */; };
+		5E556BE5A7E1AE2BABF12E96 /* Pods_BookBarcodeSerach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA00B80CC105FEB6A4A6329F /* Pods_BookBarcodeSerach.framework */; };
+		A41111B9654620A01BB170C6 /* Pods_BookBarcodeSerachUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2E16B71B60782654EA68E1 /* Pods_BookBarcodeSerachUITests.framework */; };
 		FE7B9BB71DB9CF2C00D8ED38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B9BB61DB9CF2C00D8ED38 /* AppDelegate.swift */; };
 		FE7B9BB91DB9CF2C00D8ED38 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B9BB81DB9CF2C00D8ED38 /* FirstViewController.swift */; };
 		FE7B9BBB1DB9CF2C00D8ED38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B9BBA1DB9CF2C00D8ED38 /* SecondViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E17FE62B37B248D682C6DB /* Pods-BookBarcodeSerachUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerachUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerachUITests/Pods-BookBarcodeSerachUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18C78646F4F8852E63CD6806 /* Pods-BookBarcodeSerach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerach/Pods-BookBarcodeSerach.debug.xcconfig"; sourceTree = "<group>"; };
+		439B05A2E975007FD8AA39BA /* Pods-BookBarcodeSerachUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerachUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerachUITests/Pods-BookBarcodeSerachUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F2E16B71B60782654EA68E1 /* Pods_BookBarcodeSerachUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookBarcodeSerachUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9155CCDA6B695676F3219F59 /* Pods-BookBarcodeSerach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerach.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerach/Pods-BookBarcodeSerach.release.xcconfig"; sourceTree = "<group>"; };
+		B936BE9EEE35DF4D5437429B /* Pods-BookBarcodeSerachTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerachTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerachTests/Pods-BookBarcodeSerachTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2E7C2A65F4820EC0BF37B1D /* Pods_BookBarcodeSerachTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookBarcodeSerachTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94761A5BA8C383EA9EE4A6B /* Pods-BookBarcodeSerachTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookBarcodeSerachTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookBarcodeSerachTests/Pods-BookBarcodeSerachTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA00B80CC105FEB6A4A6329F /* Pods_BookBarcodeSerach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookBarcodeSerach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7B9BB31DB9CF2C00D8ED38 /* BookBarcodeSerach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookBarcodeSerach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7B9BB61DB9CF2C00D8ED38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE7B9BB81DB9CF2C00D8ED38 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E556BE5A7E1AE2BABF12E96 /* Pods_BookBarcodeSerach.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1EF566A48E1FBFED59B46D /* Pods_BookBarcodeSerachTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41111B9654620A01BB170C6 /* Pods_BookBarcodeSerachUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		946772EBFA4DB74794D783F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B80CC105FEB6A4A6329F /* Pods_BookBarcodeSerach.framework */,
+				D2E7C2A65F4820EC0BF37B1D /* Pods_BookBarcodeSerachTests.framework */,
+				4F2E16B71B60782654EA68E1 /* Pods_BookBarcodeSerachUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FF1259FCBE43FA83841A09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18C78646F4F8852E63CD6806 /* Pods-BookBarcodeSerach.debug.xcconfig */,
+				9155CCDA6B695676F3219F59 /* Pods-BookBarcodeSerach.release.xcconfig */,
+				E94761A5BA8C383EA9EE4A6B /* Pods-BookBarcodeSerachTests.debug.xcconfig */,
+				B936BE9EEE35DF4D5437429B /* Pods-BookBarcodeSerachTests.release.xcconfig */,
+				05E17FE62B37B248D682C6DB /* Pods-BookBarcodeSerachUITests.debug.xcconfig */,
+				439B05A2E975007FD8AA39BA /* Pods-BookBarcodeSerachUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FE7B9BAA1DB9CF2C00D8ED38 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FE7B9BCC1DB9CF2C00D8ED38 /* BookBarcodeSerachTests */,
 				FE7B9BD71DB9CF2C00D8ED38 /* BookBarcodeSerachUITests */,
 				FE7B9BB41DB9CF2C00D8ED38 /* Products */,
+				F0FF1259FCBE43FA83841A09 /* Pods */,
+				946772EBFA4DB74794D783F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7B9BDD1DB9CF2C00D8ED38 /* Build configuration list for PBXNativeTarget "BookBarcodeSerach" */;
 			buildPhases = (
+				F35D77FFDD78FCDD6454BD7F /* [CP] Check Pods Manifest.lock */,
 				FE7B9BAF1DB9CF2C00D8ED38 /* Sources */,
 				FE7B9BB01DB9CF2C00D8ED38 /* Frameworks */,
 				FE7B9BB11DB9CF2C00D8ED38 /* Resources */,
+				9C9C9EF2DA36D0980029C5C1 /* [CP] Embed Pods Frameworks */,
+				2DFA771DAA81294323E0FE16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7B9BE01DB9CF2C00D8ED38 /* Build configuration list for PBXNativeTarget "BookBarcodeSerachTests" */;
 			buildPhases = (
+				CDD3D4774DB63CA367D1D211 /* [CP] Check Pods Manifest.lock */,
 				FE7B9BC51DB9CF2C00D8ED38 /* Sources */,
 				FE7B9BC61DB9CF2C00D8ED38 /* Frameworks */,
 				FE7B9BC71DB9CF2C00D8ED38 /* Resources */,
+				B7D6E88368039E2F0A83F990 /* [CP] Embed Pods Frameworks */,
+				4F7BB483B90F32FAEFA1D8D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE7B9BE31DB9CF2C00D8ED38 /* Build configuration list for PBXNativeTarget "BookBarcodeSerachUITests" */;
 			buildPhases = (
+				25E4DC0C69D18001D22D4122 /* [CP] Check Pods Manifest.lock */,
 				FE7B9BD01DB9CF2C00D8ED38 /* Sources */,
 				FE7B9BD11DB9CF2C00D8ED38 /* Frameworks */,
 				FE7B9BD21DB9CF2C00D8ED38 /* Resources */,
+				3EAB7BDA2D51E9709FDAD74A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E4DC0C69D18001D22D4122 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DFA771DAA81294323E0FE16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookBarcodeSerach/Pods-BookBarcodeSerach-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EAB7BDA2D51E9709FDAD74A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookBarcodeSerachUITests/Pods-BookBarcodeSerachUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F7BB483B90F32FAEFA1D8D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookBarcodeSerachTests/Pods-BookBarcodeSerachTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9C9EF2DA36D0980029C5C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookBarcodeSerach/Pods-BookBarcodeSerach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D6E88368039E2F0A83F990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookBarcodeSerachTests/Pods-BookBarcodeSerachTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD3D4774DB63CA367D1D211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F35D77FFDD78FCDD6454BD7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE7B9BAF1DB9CF2C00D8ED38 /* Sources */ = {
@@ -365,6 +536,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -406,36 +578,40 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		FE7B9BDE1DB9CF2C00D8ED38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C78646F4F8852E63CD6806 /* Pods-BookBarcodeSerach.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BookBarcodeSerach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nakamurau1.BookBarcodeSerach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		FE7B9BDF1DB9CF2C00D8ED38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9155CCDA6B695676F3219F59 /* Pods-BookBarcodeSerach.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BookBarcodeSerach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nakamurau1.BookBarcodeSerach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		FE7B9BE11DB9CF2C00D8ED38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94761A5BA8C383EA9EE4A6B /* Pods-BookBarcodeSerachTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +626,7 @@
 		};
 		FE7B9BE21DB9CF2C00D8ED38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B936BE9EEE35DF4D5437429B /* Pods-BookBarcodeSerachTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +641,7 @@
 		};
 		FE7B9BE41DB9CF2C00D8ED38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E17FE62B37B248D682C6DB /* Pods-BookBarcodeSerachUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BookBarcodeSerachUITests/Info.plist;
@@ -477,6 +655,7 @@
 		};
 		FE7B9BE51DB9CF2C00D8ED38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439B05A2E975007FD8AA39BA /* Pods-BookBarcodeSerachUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BookBarcodeSerachUITests/Info.plist;
@@ -507,6 +686,7 @@
 				FE7B9BDF1DB9CF2C00D8ED38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7B9BE01DB9CF2C00D8ED38 /* Build configuration list for PBXNativeTarget "BookBarcodeSerachTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +695,7 @@
 				FE7B9BE21DB9CF2C00D8ED38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE7B9BE31DB9CF2C00D8ED38 /* Build configuration list for PBXNativeTarget "BookBarcodeSerachUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +704,7 @@
 				FE7B9BE51DB9CF2C00D8ED38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
