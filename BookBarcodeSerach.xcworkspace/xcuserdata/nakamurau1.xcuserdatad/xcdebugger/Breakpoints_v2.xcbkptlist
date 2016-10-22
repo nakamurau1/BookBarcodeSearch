@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../BookSearch/BookSearch/APISearcher.swift"
-            timestampString = "498728015.176379"
+            filePath = "../BookSearch/BookSearch/ViewController.swift"
+            timestampString = "498822292.560941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "loadDataFromISBN(_:)"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "showImage(strURL:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

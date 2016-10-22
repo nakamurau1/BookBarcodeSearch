@@ -93,6 +93,7 @@
 		FE7B9C011DB9D97B00D8ED38 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		FE7B9C021DB9D97B00D8ED38 /* BookAndStocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAndStocks.swift; sourceTree = "<group>"; };
 		FE7B9C0B1DB9D9AA00D8ED38 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		FE7B9C0E1DBB4E5600D8ED38 /* BookBarcodeSerach-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookBarcodeSerach-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +180,7 @@
 				FE7B9BB81DB9CF2C00D8ED38 /* FirstViewController.swift */,
 				FE7B9BBA1DB9CF2C00D8ED38 /* SecondViewController.swift */,
 				FE7B9BBF1DB9CF2C00D8ED38 /* Assets.xcassets */,
+				FE7B9C0E1DBB4E5600D8ED38 /* BookBarcodeSerach-Bridging-Header.h */,
 				FE7B9BC11DB9CF2C00D8ED38 /* LaunchScreen.storyboard */,
 				FE7B9BC41DB9CF2C00D8ED38 /* Info.plist */,
 			);
@@ -701,6 +703,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nakamurau1.BookBarcodeSerach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookBarcodeSerach-Bridging-Header.h";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -715,6 +718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nakamurau1.BookBarcodeSerach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookBarcodeSerach-Bridging-Header.h";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
